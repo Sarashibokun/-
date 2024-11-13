@@ -253,13 +253,7 @@ main {
 }
 
 /* ページネーションボタンのスタイル */
-#newsPagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-#rulePagination {
+#pagination {
     display: flex;
     justify-content: center;
     margin-top: 20px;

@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header h1 a {
+    color: white; /* 文字の色を白に設定 */
+    text-decoration: none; /* リンクの下線を消す */
+}
+
+.sns-links {
+    position: absolute;
+    top: 20px; /* お好みの位置に調整 */
+    right: 20px; /* お好みの位置に調整 */
+    display: flex;
+    gap: 10px;
+}
+
+.sns-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sns-links ul li {
+    display: inline-block;
+}
+
+.sns-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sns-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.sns-links form {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 60px; /* お好みの位置に調整 */
+    right: 20px; /* お好みの位置に調整 */
+    display: flex;
+    gap: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* メニュー全体のスタイル */
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; /* アイテム間のスペースを均等に配置 */
+    background-color: #333;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+/* メニュー項目 */
+.main-menu ul li {
+    position: relative;
+    padding: 10px 20px;
+    margin: 0;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    color: white;
+}
+
+/*.main-menu ul li:last-child {*/
+    /*border-right: none;*/
+    /*border-left: none;*/
+/*}*/
+/* サブメニュー */
+.main-menu ul li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu ul li:hover .sub-menu {
+    display: block; /* 親メニューにマウスが乗ったときサブメニューを表示 */
+}
+
+.sub-menu li {
+    padding: 10px;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 親メニューリンクのスタイル */
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+main {
+    padding: 20px;
+}
+
+/* 学長メッセージセクション */
+.president-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.main-layout {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.president-img img {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.president-text {
+    max-width: 600px;
+}
+
+.president-text h1.main-text {
+    font-size: 24px;
+    margin: 0;
+}
+
+.president-text p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.president-text hr.president-name {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* 他のセクションのスタイリング */
+.School-Goals, .School-History, .school-song, .access {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+}
+
+.School-Goals h1, .School-History h1, .school-song h1, .access h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.School-Goals p, .School-History p, .school-song p, .access p {
+    font-size: 16px;
+    color: #555;
+}
+
+hr.break {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}

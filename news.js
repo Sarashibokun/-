@@ -41,7 +41,7 @@ function displayNews(data, page, newsPerPage) {
 
 // ページネーションを設定する関数
 function setupPagination(data, totalPages) {
-    const pagination = document.getElementById('newsPagination');
+    const pagination = document.getElementById('pagination');
     pagination.innerHTML = '';  // ページネーションをクリア
 
     for (let i = 1; i <= totalPages; i++) {

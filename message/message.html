@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>天神高等学校</title>
-    <link rel="stylesheet" href="style.css">
+    <title>学長挨拶</title>
+    <link rel="stylesheet" href="message.css">
 </head>
 <body>
     <header>
@@ -37,7 +37,7 @@
         <ul>
             <li class="menu-item"><a href="#about">天神高校とは</a>
                 <ul class="sub-menu">
-                    <li><a href="./message/message.html">学校長メッセージ</a></li>
+                    <li><a href="#message">学校長メッセージ</a></li>
                     <li><a href="#goal">学校の目標</a></li>
                     <li><a href="#history">学校沿革</a></li>
                     <li><a href="#song">校歌</a></li>
@@ -87,56 +87,66 @@
             </li>
         </ul>
     </nav>
-</header>
-<main>
-    <section class="news-section">
-        <h1>NEWS</h1>
-        <p class="subtitle">最新情報</p>
-        <a href="#topics">一覧を見る</a>
-
-        <!-- カテゴリーボタン -->
-        <div class="news-categories">
-            <nav>
-                <ul>
-                    <li><a href="#">すべて</a></li>
-                    <li><a href="#">入試情報</a></li>
-                    <li><a href="#">就職情報</a></li>
-                    <li><a href="#">おしらせ</a></li>
-                    <li><a href="#">OW</a></li>
-                    <li><a href="#">APEX</a></li>
-                    <li><a href="#">VRChat</a></li>
-                    <li><a href="#">バレーボール</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div id="newsList">
-            <!-- ニュース項目がここに動的に追加されます -->
-        </div>
-
-        <div id="newsPagination">
-            <!-- ページネーション用の要素 -->
-        </div>
-
-        <script src="news.js"></script>
-    </section>
-
-    <section class="rule">
-        <h1><a href="#rule">天神高校からの大切なお知らせ</a></h1>
-
-        <div id="ruleList">
-            <!-- 天神高校からの大切なお知らせがここに動的に追加されます -->
-        </div>
-
-        <div id="rulePagination">
-            <!-- ページネーション用の要素 -->
-        </div>
-
-        <script src="rules.js"></script>
-    </section>
-</main>
-<footer>
-    <p>&copy; 2024 天神高等学校</p>
-</footer>
+    </header>
+    <main>
+        <section class="president-message" id="message">
+            <div class="main-layout">
+                <div class="main-layout2">
+                    <div class="president-img"><img src="img/carrot.webp" alt=""></div>
+                </div>
+                <div class="president-text">
+                    <h1 class="main-text">天神高等学校 学長</h1>
+                    <p>宮下 おとぎ Miyashita Otogi</p>
+                    <hr class="president-name">
+                    <p>ここにメッセージを書く</p>
+                </div>
+            </div>
+        </section>
+        <hr class="break">
+        <section class="School-Goals" id="goal">
+            <div class="main-layout">
+                <div class="School-Goals-text">
+                    <h1>学校の目標</h1>
+                    <hr class="school-goals-line">
+                    <p>この鯖は私があんまりネット慣れして居ない人が絡めるファーストステップの場所として作り上げたコミュニティです。<br>
+                        この鯖ではゲームにはガチにならず、他人にキレたりせず、負けても笑って過ごせるような初心者や陰キャコミュ障に優しい世界です。<br>
+                        チーム名を天神高校とします!!!<br>
+                        ※このサーバーの存在は外部にはご内密に(⋈◍＞◡＜◍)。✧♡<br>
+                        OWに限らず、パーティーゲームやアモアス／人狼なんかして楽しく過ごす場にしましょう!</p>
+                </div>
+            </div>
+        </section>
+        <hr class="break">
+        <section class="School-History" id="history">
+            <div class="main-layout">
+                <div class="School-History-text">
+                    <h1>学校沿革</h1>
+                    <hr class="school-History-line">
+                    <p>何もなし!</p>
+                </div>
+            </div>
+        </section>
+        <hr class="break">
+        <section class="school-song" id="song">
+            <div class="main-layout">
+                <div class="school-song-text">
+                    <h1>校歌</h1>
+                    <hr class="school-song-line">
+                    <p>aaa</p>
+                </div>
+            </div>
+        </section>
+        <hr class="break">
+        <section class="access" id="access">
+            <div class="main-layout">
+                <div class="access-text">
+                    <h1>アクセス</h1>
+                    <hr class="access-line">
+                    <p>Discordからの参加をお待ちしております!</p>
+                </div>
+            </div>
+        </section>
+        <hr class="break">
+    </main>
 </body>
 </html>
